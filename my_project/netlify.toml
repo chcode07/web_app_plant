@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "pip install -r requirements.txt && python src/app.py"
+  command = "pip install -r my_project/requirements.txt && python my_project/src/app.py"
 
 [functions]
   directory = "functions"

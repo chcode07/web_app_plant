@@ -7,6 +7,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "my_project/public/index.html"
   status = 200
 

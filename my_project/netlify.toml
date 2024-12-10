@@ -1,12 +1,11 @@
 [build]
   publish = "public"
-  command = "pip install -r requirements.txt && python my_project/app.py"
+  command = "pip install -r requirements.txt && gunicorn src.app:app"
 
 [functions]
   directory = "functions"
 
 [[redirects]]
   from = "/*"
-  to = "public/index.html"
+  to = "/index.html"
   status = 200
-

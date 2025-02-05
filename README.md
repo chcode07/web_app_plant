@@ -11,4 +11,4 @@ Features:
 
 3. It provides a way to report real time sensors data to the user through this web interface.
 
-For the application and design files please navigate to the master branch by clicking_here : https://github.com/chcode07/web_app_plant/tree/master.
+For the application and design files please navigate through the above directories.
